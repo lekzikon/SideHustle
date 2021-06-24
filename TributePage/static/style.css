@@ -1,0 +1,132 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            width: 80%;            
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        header {
+            border: 2px solid black;
+            margin: 30px 50px 50px 50px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(39, 39, 112, 0.788);
+        }
+        
+        #header h1 {
+            font-size: 40px;
+            text-align: center;
+            color: rgba(7, 66, 122, 0.884);
+            margin: 20px;
+        }
+        
+        #header h3 {
+            font-size: 25px;
+            color: rgba(7, 66, 122, 0.884);
+            text-align: justify;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        
+        #header span {
+            color: red;
+            font-size: 20px;
+            font-style: italic;
+        }
+        
+        #title {
+            color: rgb(211, 113, 22);
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+        
+        #title p {
+            color: rgb(0, 4, 255);
+            font-size: 20px;
+        }
+        
+        #image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        
+        figcaption {
+            text-align: center;
+            font-style: italic;
+        }
+        
+
+        .tribute-info {
+            text-align: justify;
+        }
+        
+        .tribute-info h2 {
+            font-size: 25px;
+            text-align: center;
+            margin: 20px;
+            color: rgb(209, 62, 62);
+        }
+        
+        b {
+            color: blue;
+        }
+        
+        .tribute-info li {
+            margin: 10px 0 10px 20px;
+            list-style: none;
+        }
+        
+        .info {
+            text-align: justify;
+            width: 30%;
+            margin: 20px auto 30px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(39, 39, 112, 0.788);
+            color: red;
+            font-weight: bold;
+        }
+        
+        .info input, select {
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px rgba(39, 39, 112, 0.788);
+            border-style: none;
+            border-radius: 10px;   
+            padding: 10px; 
+        }
+        
+        .info button {
+            margin-top: 20px;
+            box-shadow: 2px 2px 5px rgba(39, 39, 112, 0.788);
+            border-style: none;
+            border-radius: 10px;  
+            color: red;  
+            padding: 5px;
+        }
+
+        #tribute-link {
+            text-decoration: none;
+        }
+
+        footer h3 {
+            margin-left: 20px;
+        }
+
+        i {
+            text-align: center;
+        }
